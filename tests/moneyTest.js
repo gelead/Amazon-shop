@@ -1,5 +1,6 @@
 import {moneyformater} from '../scripts/utils/moneyformat.js';
 
+console.log('test suite: money format test cases')
 if(moneyformater(2090) == '20.90'){
     console.log('Passed')
 }else{
